@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #012f34;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.192);
+  transform: translateY(70px);
+}
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+  -webkit-animation-name: animatsiya;
+          animation-name: animatsiya;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.wrapper {
+  margin: 20px auto 0;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+@-webkit-keyframes animatsiya {
+  0% {
+    border: 5px solid red;
+  }
+  25% {
+    border: 5px solid yellow;
+  }
+  50% {
+    border: 5px solid green;
+  }
+  75% {
+    border: 5px solid blue;
+  }
+  100% {
+    border: 5px solid red;
+  }
+}
+
+@keyframes animatsiya {
+  0% {
+    border: 5px solid red;
+  }
+  25% {
+    border: 5px solid yellow;
+  }
+  50% {
+    border: 5px solid green;
+  }
+  75% {
+    border: 5px solid blue;
+  }
+  100% {
+    border: 5px solid red;
+  }
+}
+.aylana1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  -webkit-animation-name: aylana1;
+          animation-name: aylana1;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  position: absolute;
+}
+
+@-webkit-keyframes aylana1 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 400px;
+    top: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 400px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes aylana1 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 400px;
+    top: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 400px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.aylana2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 0);
+  -webkit-animation-name: aylana2;
+          animation-name: aylana2;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  position: absolute;
+}
+
+@-webkit-keyframes aylana2 {
+  0% {
+    background-color: yellow;
+    left: 400px;
+    top: 0px;
+  }
+  25% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  50% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  75% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  100% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+}
+
+@keyframes aylana2 {
+  0% {
+    background-color: yellow;
+    left: 400px;
+    top: 0px;
+  }
+  25% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  50% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  75% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  100% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+}
+.aylana3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(0, 128, 0);
+  -webkit-animation-name: aylana3;
+          animation-name: aylana3;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  position: absolute;
+}
+
+@-webkit-keyframes aylana3 {
+  0% {
+    background-color: green;
+    left: 400px;
+    bottom: 0px;
+  }
+  25% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  50% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  75% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+  100% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+}
+
+@keyframes aylana3 {
+  0% {
+    background-color: green;
+    left: 400px;
+    bottom: 0px;
+  }
+  25% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  50% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  75% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+  100% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+}
+.aylana4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 255);
+  -webkit-animation-name: aylana4;
+          animation-name: aylana4;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  position: absolute;
+}
+
+@-webkit-keyframes aylana4 {
+  0% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  25% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  50% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+  75% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  100% {
+    background-color: blue;
+    left: 0;
+    bottom: 0px;
+  }
+}
+
+@keyframes aylana4 {
+  0% {
+    background-color: blue;
+    left: 0;
+    top: 400px;
+  }
+  25% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  50% {
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+  }
+  75% {
+    background-color: green;
+    left: 400px;
+    top: 400px;
+  }
+  100% {
+    background-color: blue;
+    left: 0;
+    bottom: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */
